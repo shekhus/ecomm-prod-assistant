@@ -12,7 +12,7 @@ class DataIngestion:
     Class to handle data transformation and ingestion into AstraDB vector store.
     """
 
-    def __init__(self):
+    def __init__(self): 
         """
         Initialize environment variables, embedding model, and set CSV file path.
         """
