@@ -3,7 +3,7 @@ from typing import Dict
 import string
 
 
-class PromptType(str, Enum):
+class  PromptType(str, Enum):
     PRODUCT_BOT = "product_bot"
     REVIEW_BOT = "review_bot"
     COMPARISON_BOT = "comparison_bot"
